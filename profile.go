@@ -91,7 +91,7 @@ func MutexProfile(p *Profile) { p.mode = mutexMode }
 // It disables any previous profiling settings.
 func BlockProfile(p *Profile) { p.mode = blockMode }
 
-// Trace profile controls if execution tracing will be enabled. It disables any previous profiling settings.
+// TraceProfile: Trace profile controls if execution tracing will be enabled. It disables any previous profiling settings.
 func TraceProfile(p *Profile) { p.mode = traceMode }
 
 // ProfilePath controls the base path where various profiling
